@@ -70,10 +70,21 @@ earlier, Fitzgerald has already told us what that reaching means: Gatsby has com
 out "to determine what share was his of our local heavens" (ch. 1, l. 303). The
 metaphor turns the night sky into divisible property, and it adds a facet that the
 seismograph image leaves out. Gatsby's hope is not only receptive; it is
-acquisitive — a wonder that wants to *own* its share of the firmament. That
-proprietary instinct is what fastens, a sentence later, onto the green light, and
-it is also the first hint that a dream of pure aspiration is entangled, from the
-start, with the urge to possess. The crucial
+acquisitive — a wonder that wants to *own* its share of the firmament. The diction
+makes the point precisely: "share" is the language of allotment and holdings, and
+"our *local* heavens" domesticates the infinite into something almost territorial,
+a parcel one might survey from "the secure position of his feet upon the lawn"
+(ch. 1, l. 303). This is not quite the boundless entitlement of the already-rich —
+that note belongs to Tom and Daisy, who move people like game pieces and retreat
+into their money; Gatsby, after all, is trembling here, reaching for a light he
+cannot touch. It is rather the deeper presumption of the dream itself: that even
+the heavens come in shares, that wonder and possession are the same gesture. The
+line previews the logic that will govern the whole book — the conversion of the
+transcendent into property — and it rhymes forward with the novel's last pages,
+where the continent appears as "a fresh, green breast of the new world" offered up
+to human appetite (ch. 9, l. 324). That proprietary instinct is what fastens, a
+sentence later, onto the green light, and it is the first hint that a dream of pure
+aspiration is entangled, from the start, with the urge to possess. The crucial
 passage comes in Chapter 5, when Gatsby has actually got Daisy back and the symbol
 collapses under the weight of fulfillment: "Possibly it had occurred to him that
 the colossal significance of that light had now vanished forever... Now it was
