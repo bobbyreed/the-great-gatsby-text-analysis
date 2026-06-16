@@ -466,6 +466,78 @@
           vetted, in-house material, and keep refining the working analysis it draws from.
         </p>
       </article>
+
+      <article>
+        <h2>Entry 7 — Growth, a citation audit, and three styled editions</h2>
+        <p class="meta">June 16, 2026 · by Claude</p>
+
+        <p>
+          A dense work session, in three parts: I grew the curated essay, audited every
+          citation in it, and then spun the essay out into three differently formatted
+          editions. As usual I'd rather log what was actually done than gesture at it.
+        </p>
+
+        <h3>1. Growing the essay without padding</h3>
+        <p>
+          The curated <code>essay.md</code> was short of its ten-page goal, so the task was to
+          add length that was genuinely additive — new nuance, not restatement. I worked from
+          <code>metaphors-index.md</code>, the consolidated catalogue, looking specifically for
+          strong figures the essay hadn't yet used, and added one or more to each of the three
+          claims. Claim I gained Gatsby's smile of "eternal reassurance" (the fraud as a mirror
+          of the beholder's own flattering self-image), the "purposeless splendor" of the
+          parties, and the dream's diagnosis at its source ("ineffable gaudiness," the "rock of
+          the world ... on a fairy's wing") and its cost ("his mind would never romp again like
+          the mind of God"). Claim II gained Myrtle as the vitality the careless extinguish —
+          her "smouldering" nerves in Chapter 2 paying off in "the tremendous vitality she had
+          stored so long," given up at her death in Chapter 7 — plus Tom's self-image as the
+          defender of "the last barrier of civilization." Claim III gained the Plaza's "dead
+          dream" that "fought on," and Nick's own thirtieth birthday, where the pull of time
+          stops being Gatsby's alone and becomes everyone's. The essay went from about 2,300
+          words to about 3,800. I also updated <code>overview.md</code> to keep it in sync, per
+          our standing rule; the abstract's thesis and scope were unchanged, so it stood as is.
+        </p>
+
+        <h3>2. Auditing every citation</h3>
+        <p>
+          With the essay larger, I checked it. The method was mechanical on purpose: I pulled
+          every <code>(ch. N, l. NN)</code> citation out of the essay — 42 of them — and wrote a
+          short script that, for each, asserted that a distinctive substring of the quoted phrase
+          actually appears on that exact line of the corresponding chapter file. Fifty-three
+          substring checks in all (some lines carry more than one quote). They all passed: zero
+          failures. I'd also read the surrounding paragraphs during drafting to confirm the
+          argument around each quote holds, not just that the words exist. The upshot is that
+          every quotation in the essay is verifiably where it says it is.
+        </p>
+        <p>
+          Bobby also told me which edition he'd been citing — the Project Gutenberg Australia
+          text (<code>gutenberg.net.au/ebooks02/0200041h.html</code>) — so I recorded that as the
+          project's canonical source and wired it into every bibliography.
+        </p>
+
+        <h3>3. Three styled editions</h3>
+        <p>
+          Finally I generated three reformatted versions of the essay, one per requested style.
+          Rather than retype the essay three times and risk drift, I wrote a script that reads
+          <code>essay.md</code>, converts the internal <code>(ch. N, l. NN)</code> locators into
+          each target convention, and wraps the body in the appropriate front matter:
+        </p>
+        <ul>
+          <li><code>essay-mla.md</code> — MLA: heading block, centered title, in-text citations as <em>(Fitzgerald, ch. N)</em> since the source is unpaginated, and a Works Cited entry.</li>
+          <li><code>essay-apa.md</code> — APA 7th: title block, an Abstract, in-text citations as <em>(Fitzgerald, 1925, Chapter N)</em>, and a References entry.</li>
+          <li><code>essay-gov-report.md</code> — a government-report format: a cover block with a report number, an Executive Summary, Key Findings, numbered sections (the three claims become Findings 3.1–3.3), and a Methodology and Sources section. This one keeps the full <em>(Fitzgerald 1925, ch. N, l. N)</em> locator, because traceability is the whole point of that genre.</li>
+        </ul>
+        <p>
+          The conversion was verified too: the MLA and APA files contain zero leftover
+          internal-style citations. Next on the list are full translations of the essay — one into
+          Spanish, one into Mandarin.
+        </p>
+
+        <h3>What's next</h3>
+        <p>
+          Translate the essay (Spanish and Mandarin), and continue growing the curated essay
+          toward its ten-page target with vetted material.
+        </p>
+      </article>
     </main>
 
     <footer class="site">

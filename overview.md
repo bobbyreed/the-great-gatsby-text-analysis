@@ -51,6 +51,15 @@ luminous, valuable, and finally hollow.*
   God," "meretricious beauty" (ch. 6) → the "incarnation," wedding "unutterable
   visions to her perishable breath" (ch. 6) → "'Jay Gatsby' had broken up like
   glass" (ch. 8). *Point: the self is a beautiful, brittle fabrication.*
+- **Added nuance:** the seduction is *general* — even skeptical Nick feels it, his
+  finance books "like new money from the mint," naming Midas (ch. 1); Gatsby's smile
+  of "eternal reassurance" is the fraud in miniature, mirroring each beholder's
+  flattering self-image and vanishing under scrutiny (ch. 3); the parties are
+  "purposeless splendor" that "dispensed starlight to casual moths" (ch. 4); and the
+  fraud is diagnosed at its source ("ineffable gaudiness"; "the rock of the world ...
+  on a fairy's wing," ch. 6; the threadbare "sawdust" of the rehearsed past, ch. 4)
+  and priced at fulfillment ("his mind would never romp again like the mind of God,"
+  ch. 6).
 
 ### II. Wealth insulates the careless from consequence
 *Carried by metaphors of force and machinery, the ash-figures of the valley, and
@@ -70,6 +79,13 @@ falls on those with no money to retreat into.*
   as a fortress (ch. 9); the city "built with a wish out of non-olfactory money,"
   money that has been deodorized (ch. 4). *Point: money is the medium of
   insulation.*
+- **Added nuance:** even the master is unsatisfied — Tom's "egotism no longer
+  nourished his peremptory heart" (ch. 1); Myrtle is the vitality the careless
+  extinguish ("nerves ... continually smouldering," ch. 2 → "the tremendous vitality
+  she had stored so long," given up at death, ch. 7); and insulation extends to
+  self-image — Tom on "the last barrier of civilization" (ch. 7), Daisy's contempt
+  for strivers herded "from nothing to nothing" (ch. 6), Wilson handled "like a
+  doll" (ch. 7).
 
 ### III. The past cannot be repeated and yet cannot be escaped
 *Carried by metaphors of time and water; contains the book's central
@@ -85,6 +101,14 @@ contradiction.*
   light (ch. 9); "the dark fields of the republic" (ch. 9); the green light as "the
   orgastic future that year by year recedes" (ch. 9); closing on "boats against the
   current, borne back ceaselessly into the past" (ch. 9).
+- **Added nuance:** at the Plaza "the dead dream fought on ... trying to touch what
+  was no longer tangible" (ch. 7) — unrepeatable yet unrelinquished; the pull turns
+  universal through Nick's thirtieth birthday, "the portentous menacing road of a new
+  decade" and "thinning hair" (ch. 7), and "So we drove on toward death through the
+  cooling twilight" (ch. 7), the car already the boat. The culmination first
+  dissolves the present — "the inessential houses began to melt away" (ch. 9) — and
+  draws a green thread (light, breast, "long green tickets," ch. 9) through all that
+  is wanted and out of reach.
 
 ### Conclusion: one figure, three claims
 - The final sentence holds all three claims at once: "we beat on" (the dream),
@@ -105,8 +129,9 @@ contradiction.*
   8 → 5, then ch. 6 → 8). This is the honest residue of the "web vs. grid" problem.
   If we want stricter linearity, the fix is to interleave the sub-arcs by chapter —
   at some cost to each sub-arc's internal momentum.
-- **Claim II is the heaviest, Claim III the leanest in sources** but tightest in
-  payoff (it owns the ending). Worth watching as we grow the essay toward ten pages
-  that we don't over-weight II.
+- **Claim II remains the heaviest in sources;** Claim III, after the expansion (the
+  Plaza "dead dream," Nick's thirtieth birthday, the green thread), is closer to
+  parity and tightest in payoff (it owns the ending). Worth watching as we grow the
+  essay that we don't over-weight II.
 - **Cross-claim figures to keep flagged:** the green light (I + III), non-olfactory
   money (I + II), the indifferent sea (II + III).
