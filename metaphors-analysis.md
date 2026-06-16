@@ -65,7 +65,15 @@ All of this aspiration finds its object in the green light. Fitzgerald introduce
 it without explanation at the close of Chapter 1: Gatsby stretches his arms toward
 the water and Nick sees "a single green light, minute and far away" (ch. 1, l.
 305). The light is literal — it burns at the end of Daisy's dock — but the novel
-metaphorizes it almost immediately into the vehicle for desire as such. The crucial
+metaphorizes it almost immediately into the vehicle for desire as such. A breath
+earlier, Fitzgerald has already told us what that reaching means: Gatsby has come
+out "to determine what share was his of our local heavens" (ch. 1, l. 303). The
+metaphor turns the night sky into divisible property, and it adds a facet that the
+seismograph image leaves out. Gatsby's hope is not only receptive; it is
+acquisitive — a wonder that wants to *own* its share of the firmament. That
+proprietary instinct is what fastens, a sentence later, onto the green light, and
+it is also the first hint that a dream of pure aspiration is entangled, from the
+start, with the urge to possess. The crucial
 passage comes in Chapter 5, when Gatsby has actually got Daisy back and the symbol
 collapses under the weight of fulfillment: "Possibly it had occurred to him that
 the colossal significance of that light had now vanished forever... Now it was
@@ -132,6 +140,18 @@ he plants in Chapter 2 and detonates in Chapters 7 and 8, where its ash-figures 
 brooding eyes collect the consequences of the careless lives playing out across the
 bay.
 
+And the valley does not merely collect the consequences; it sends them. When
+Wilson finally crosses out of his wasteland to kill Gatsby, Fitzgerald describes
+him as "that ashen, fantastic figure gliding toward him through the amorphous
+trees" (ch. 8, l. 221). The metaphor turns the valley's representative man into a
+piece of the ash itself — the wasteland made animate and vengeful, drifting into
+the green, watered precincts of the dream. This is the nuance that completes the
+section's argument: the figure of decay is not a static backdrop against which the
+figure of aspiration shines. It is mobile. It walks across the bay and extinguishes
+the dreamer in his own pool. The novel's two governing metaphors of geography —
+the green world of aspiration and the grey world of consequence — finally meet on
+Gatsby's lawn, and the ash wins.
+
 ## III. Daisy: the girl made of money and music
 
 Daisy Buchanan is the novel's great example of a person turned, by metaphor, into
@@ -162,6 +182,18 @@ the dream it describes. Gatsby's love is inseparable from the wealth that makes
 Daisy shine, which is why the green light burned at the end of *her* dock and why
 her voice, in the end, sounds like coins.
 
+The metaphors of music complicate the metaphors of money in one telling way.
+In Chapter 5 Nick says that her voice "couldn't be over-dreamed—that voice was a
+deathless song" (ch. 5, l. 310). This is the single quality the novel grants Daisy
+without irony: not her face, not her constancy, but the sound she makes. And the
+reason the voice can be "deathless" where the rest of her is perishable is that a
+voice is pure abstraction — music that will hold whatever meaning is poured into
+it. The nuance matters. Everything else about Daisy eventually "tumbled short of
+his dreams," but her voice did not, precisely because it was never substance to
+begin with. The metaphor of money and the metaphor of immortal song thus name the
+same fatal quality from two directions: an enchantment that is entirely real as
+sound and entirely empty as feeling.
+
 Even Daisy's own metaphors participate in this. When she calls Nick "an absolute
 rose" (ch. 1, l. 185), the figure is charming and meaningless — Nick notes flatly,
 "I am not even faintly like a rose" — and its emptiness is characterizing. Daisy
@@ -184,6 +216,18 @@ who serves not God but "meretricious beauty," the false glamour of wealth; his
 "Father's Business" is the pursuit of money and Daisy. By borrowing the language of
 incarnation, Fitzgerald elevates Gatsby's delusion to the level of a religion and,
 in the same breath, exposes what that religion worships.
+
+If the religion has a god in "meretricious beauty," it also has a quest.
+Fitzgerald completes the figure in Chapter 8: Gatsby "had committed himself to the
+following of a grail" (ch. 8, l. 27). The grail metaphor supplies the chivalric
+dimension that the static "Platonic conception" lacks — it converts self-invention
+into a *vocation*, a sacred errand demanding fidelity to the end. This adds a
+crucial nuance to the section's argument and reaches back to the green light:
+a grail is not enjoyed, it is sought, and the knight is defined entirely by the
+seeking. It explains why Gatsby cannot simply win Daisy and be content, and why the
+brief possession of Chapter 5 begins, almost at once, to unmake him. To attain the
+grail is to end the quest that constitutes the self; for a man who "sprang from his
+Platonic conception of himself," arrival is a kind of death.
 
 The incarnation metaphor pays off in the novel's account of the original kiss. As
 Gatsby kisses Daisy for the first time, "he forever wed his unutterable visions to
@@ -227,6 +271,19 @@ froth, and color in turn. The effect is not mere prettiness; it conveys a world 
 which sensation has become unmoored and intoxicating, where everything is
 convertible into everything else, much as money in this society converts into
 beauty, status, and love.
+
+Fitzgerald pushes that convertibility to its sharpest point when Nick sees
+Manhattan from the Queensboro Bridge as "the city rising up across the river in
+white heaps and sugar lumps all built with a wish out of non-olfactory money"
+(ch. 4, l. 111). "Sugar lumps" makes the skyline edible; "non-olfactory money" is
+the stranger figure, money defined by the smell it does *not* have. The phrase
+quietly launders wealth through the senses — scrubbing away the odor that money
+might otherwise carry, of labor, of the valley of ashes, of corruption — so that
+the city can appear as pure confection "built with a wish." The nuance this adds is
+that synesthesia in the novel is not only intoxication but a kind of moral
+deodorizing: the same sensory alchemy that turns sound yellow and odor gold can
+also turn dirty money into sugar. Fitzgerald's cross-sensory metaphors are
+beautiful, and they are quietly complicit.
 
 Light, in particular, behaves like a fluid or a fire. Gatsby's house "was blazing
 with light" on the night he cannot sleep (ch. 5, l. 3); when Daisy enters his life
@@ -276,6 +333,18 @@ republic rolled on under the night" (ch. 9, l. 326). The nation itself becomes a
 dark rolling field, and the dream is located in the past, "behind him," even as
 Gatsby reaches forward.
 
+Water in the novel is not merely the medium of loss; it is morally indifferent to
+it, and that indifference is its own facet of the metaphor. Preparing to leave the
+East, Nick says he wanted "to leave things in order and not just trust that
+obliging and indifferent sea to sweep my refuse away" (ch. 9, l. 278). The sea is
+"obliging" — it will take whatever you give it — but "indifferent," and the pairing
+says something the current image alone does not: time and water neither clean up
+after us nor hold us to account. That is exactly why Nick feels he must act, and
+exactly what Tom and Daisy rely on when they retreat into their money. The same
+sea that bears the boats "back ceaselessly into the past" will also, if allowed,
+sweep the refuse away and remember nothing. The current that defeats aspiration and
+the tide that absolves carelessness are the same indifferent water.
+
 And so the book closes on the current: "Gatsby believed in the green light, the
 orgastic future that year by year recedes before us... So we beat on, boats against
 the current, borne back ceaselessly into the past" (ch. 9, l. 328–330). The
@@ -300,6 +369,17 @@ which he breaks Myrtle's nose and, later, sends Wilson toward Gatsby. When his
 control over his wife and mistress begins to slip in Chapter 7, panic is rendered
 as a lash: "Tom was feeling the hot whips of panic," his women "slipping
 precipitately from his control" (ch. 7, l. 329).
+
+The Buchanan habit of handling people as objects is established long before any
+violence, in a metaphor small enough to miss. At the first dinner Tom, "wedging
+his tense arm imperatively under mine," compels Nick out of the room "as though he
+were moving a checker to another square" (ch. 1, l. 125). A checker is not
+persuaded or invited; it is repositioned. The figure names, in miniature, the trait
+the famous verdict will later enlarge — that before the Buchanans smash things and
+creatures, they move people like pieces in a game. This is the nuance the driving
+metaphor needs: carelessness does not begin as malice but as *play*, an idle
+confidence that other lives exist to be slid about the board at will. The literal
+wreckage on the Valley road is only that game played at fifty miles an hour.
 
 But the governing metaphor for the Buchanans is driving — careless driving — and
 Fitzgerald builds it patiently. In Chapter 3 Jordan Baker, herself "incurably
