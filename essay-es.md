@@ -291,12 +291,10 @@ and mounted to a secret place above the trees" ("las losas de la acera formaban 
 una escalera que subía a un lugar secreto por encima de los árboles") donde podría "suck
 on the pap of life, gulp down the incomparable milk of wonder" ("mamar de la teta de la
 vida, tragar la incomparable leche del asombro", cap. 6, l. 267): un instante figurado
-como un ascenso único e irrepetible. Tras el reencuentro que debía recobrarlo, Gatsby se
+como un ascenso único e irrepetible, cuyo tono mismo queda captado en una figura compañera del mismo pasaje: "the tuning fork that had been struck upon a star" ("el diapasón que había sido golpeado contra una estrella", cap. 6, l. 269), una nota tañida una sola vez y que, por la naturaleza de la cosa, nunca volverá a tañerse. Tras el reencuentro que debía recobrarlo, Gatsby se
 "running down like an overwound clock" ("agota como un reloj al que se le dio demasiada
 cuerda", cap. 5, l. 229), gastado el mecanismo de su expectación; al pasado no se le puede
 dar cuerda de nuevo.
-
-El tono mismo de ese instante queda captado en una figura compañera del mismo pasaje: "the tuning fork that had been struck upon a star" ("el diapasón que había sido golpeado contra una estrella", cap. 6, l. 269), una nota tañida una sola vez y que, por la naturaleza de la cosa, nunca volverá a tañerse.
 
 La contradicción se agudiza en el Plaza, donde el sueño es declarado muerto y, aun así, se
 niega a dejar de moverse. Mientras Daisy se aparta de él, "only the dead dream fought on
