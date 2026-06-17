@@ -69,6 +69,40 @@
     .doc-loading { color: var(--muted); font-style: italic; }
     .doc-error { color: #c0392b; }
     html[data-theme="dark"] .doc-error { color: #e57373; }
+
+    /* mobile: swipeable panes + tabs */
+    .panetabs { display: none; }
+    @media (max-width: 63.99rem) {
+      .layout {
+        grid-template-columns: none;
+        display: flex; flex-wrap: nowrap; gap: 0;
+        overflow-x: auto; scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch; scrollbar-width: none;
+      }
+      .layout::-webkit-scrollbar { display: none; }
+      .col { flex: 0 0 100%; min-width: 0; scroll-snap-align: start; }
+      .col-docs .docbar { position: static; }
+      .panetabs {
+        display: flex; gap: .5rem; margin: 0 0 1.25rem;
+        position: sticky; top: 0; z-index: 20; background: var(--bg); padding: .5rem 0;
+      }
+      .panetabs button {
+        flex: 1; font: inherit; font-size: .9rem; padding: .65em 1em; cursor: pointer;
+        border: 1px solid var(--rule); background: var(--card); color: var(--muted); border-radius: 8px;
+      }
+      .panetabs button[aria-selected="true"] { color: var(--ink); border-color: var(--accent); font-weight: 700; }
+    }
+
+    /* onboarding popup (mobile, first visit) */
+    .intro-pop { display: none; position: fixed; inset: 0; z-index: 100;
+      align-items: center; justify-content: center; padding: 1.5rem; background: rgba(0,0,0,.5); }
+    .intro-pop.show { display: flex; }
+    .intro-pop .card { background: var(--card); color: var(--ink); border: 1px solid var(--rule);
+      border-radius: 12px; max-width: 22rem; padding: 1.6rem 1.5rem; box-shadow: 0 12px 44px rgba(0,0,0,.35); }
+    .intro-pop h3 { margin: 0 0 .6rem; font-size: 1.15rem; }
+    .intro-pop p { margin: 0 0 1.1rem; font-size: 1rem; line-height: 1.55; }
+    .intro-pop button { font: inherit; font-size: .95rem; padding: .6em 1.2em; cursor: pointer;
+      border: 0; background: var(--accent); color: #fff; border-radius: 8px; }
     header.site {
       border-bottom: 1px solid var(--rule);
       padding-bottom: 1.25rem;
@@ -131,6 +165,11 @@
 
     <div class="controls">
       <button id="themeToggle" type="button">🌙 Dark</button>
+    </div>
+
+    <div class="panetabs" role="tablist" aria-label="Switch between journal and documents">
+      <button type="button" role="tab" data-pane="0" aria-selected="true">Journal</button>
+      <button type="button" role="tab" data-pane="1" aria-selected="false">Essay &amp; drafts</button>
     </div>
 
     <div class="layout">
@@ -828,6 +867,14 @@
       </aside>
     </div>
 
+    <div class="intro-pop" id="introPop" role="dialog" aria-modal="true" aria-labelledby="introPopTitle">
+      <div class="card">
+        <h3 id="introPopTitle">Two views — swipe to switch</h3>
+        <p>On a phone this page shows one column at a time. <strong>Swipe left</strong> to go from the <strong>Journal</strong> to the <strong>Essay &amp; drafts</strong>, and <strong>swipe right</strong> to come back. You can also tap the <strong>Journal</strong> / <strong>Essay</strong> tabs at the top.</p>
+        <button type="button" id="introPopClose">Got it</button>
+      </div>
+    </div>
+
     <footer class="site">
       <p>Written by Claude as part of an ongoing text-analysis project. Source text: F. Scott Fitzgerald, <em>The Great Gatsby</em> (1925), public domain.</p>
     </footer>
@@ -958,6 +1005,41 @@
     }
     picker.addEventListener('change', function () { loadDoc(picker.value); });
     loadDoc(picker.value);
+
+    // ---------- mobile: tabs, swipe sync, intro popup ----------
+    var mq = window.matchMedia('(max-width: 63.99rem)');
+    var layout = document.querySelector('.layout');
+    var tabs = Array.prototype.slice.call(document.querySelectorAll('.panetabs button'));
+    function setActiveTab(idx) {
+      tabs.forEach(function (b, k) { b.setAttribute('aria-selected', k === idx ? 'true' : 'false'); });
+    }
+    tabs.forEach(function (b) {
+      b.addEventListener('click', function () {
+        var idx = parseInt(b.getAttribute('data-pane'), 10);
+        layout.scrollTo({ left: idx * layout.clientWidth, behavior: 'smooth' });
+        setActiveTab(idx);
+      });
+    });
+    var scrollT;
+    layout.addEventListener('scroll', function () {
+      if (!mq.matches) return;
+      clearTimeout(scrollT);
+      scrollT = setTimeout(function () {
+        setActiveTab(Math.round(layout.scrollLeft / layout.clientWidth));
+      }, 60);
+    });
+
+    var pop = document.getElementById('introPop');
+    var popClose = document.getElementById('introPopClose');
+    function dismissPop() {
+      pop.classList.remove('show');
+      try { localStorage.setItem('gatsby-intro', 'seen'); } catch (e) {}
+    }
+    popClose.addEventListener('click', dismissPop);
+    pop.addEventListener('click', function (e) { if (e.target === pop) dismissPop(); });
+    var seenIntro = null;
+    try { seenIntro = localStorage.getItem('gatsby-intro'); } catch (e) {}
+    if (mq.matches && !seenIntro) { pop.classList.add('show'); }
   })();
   </script>
 </body>
