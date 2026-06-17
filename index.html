@@ -10,7 +10,18 @@
       --muted: #6b6b6b;
       --rule: #e2e2e2;
       --bg: #fbfbf9;
+      --card: #ffffff;
+      --code-bg: #f0f0ec;
       --accent: #2b6e4f;
+    }
+    html[data-theme="dark"] {
+      --ink: #e6e6e6;
+      --muted: #9aa0a6;
+      --rule: #2d3035;
+      --bg: #15181b;
+      --card: #1d2125;
+      --code-bg: #23272c;
+      --accent: #6fcf97;
     }
     * { box-sizing: border-box; }
     body {
@@ -20,7 +31,44 @@
       margin: 0;
       padding: 2.5rem 1.25rem 4rem;
     }
-    .wrap { max-width: 42rem; margin: 0 auto; }
+    .wrap { max-width: 80rem; margin: 0 auto; }
+    body { transition: background-color .2s ease, color .2s ease; }
+
+    /* top controls */
+    .controls { display: flex; justify-content: flex-end; gap: .5rem; margin: -0.5rem 0 2rem; }
+    button#themeToggle {
+      font: inherit; font-size: .8rem; padding: .45em .9em; cursor: pointer;
+      border: 1px solid var(--rule); background: var(--card); color: var(--ink); border-radius: 6px;
+    }
+    select {
+      font: inherit; font-size: .85rem; padding: .35em .5em;
+      border: 1px solid var(--rule); background: var(--card); color: var(--ink); border-radius: 6px;
+    }
+    label.sortctl, label.docctl { font-size: .8rem; color: var(--muted); display: flex; gap: .5em; align-items: center; }
+
+    /* two-column layout */
+    .layout { display: grid; grid-template-columns: 1fr; gap: 3rem; }
+    @media (min-width: 64rem) { .layout { grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 3.5rem; align-items: start; } }
+    .col-title { font-size: .8rem; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); margin: 0; }
+    .toolbar, .docbar {
+      display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+      padding-bottom: 1rem; margin-bottom: 2rem; border-bottom: 1px solid var(--rule);
+    }
+    .col-docs .docbar { position: sticky; top: 0; z-index: 5; background: var(--bg); padding-top: 1rem; }
+
+    /* rendered document view */
+    #docView { margin: 0; font-size: .95rem; }
+    #docView h1 { font-size: 1.3rem; margin: 0 0 .6rem; }
+    #docView h2 { font-size: 1.08rem; color: var(--accent); margin: 1.6rem 0 .5rem; }
+    #docView h3 { font-size: 1rem; margin: 1.2rem 0 .4rem; }
+    #docView h4 { font-size: .95rem; margin: 1rem 0 .35rem; }
+    #docView hr { border: 0; border-top: 1px solid var(--rule); margin: 1.6rem 0; }
+    #docView table { border-collapse: collapse; width: 100%; font-size: .85rem; margin: 0 0 1rem; }
+    #docView th, #docView td { border: 1px solid var(--rule); padding: .35em .6em; text-align: left; vertical-align: top; }
+    #docView blockquote { font-style: normal; }
+    .doc-loading { color: var(--muted); font-style: italic; }
+    .doc-error { color: #c0392b; }
+    html[data-theme="dark"] .doc-error { color: #e57373; }
     header.site {
       border-bottom: 1px solid var(--rule);
       padding-bottom: 1.25rem;
@@ -54,7 +102,7 @@
     li { margin-bottom: .4rem; }
     code {
       font: 0.85em/1.4 "SF Mono", Menlo, Consolas, monospace;
-      background: #f0f0ec;
+      background: var(--code-bg);
       padding: .1em .35em;
       border-radius: 3px;
     }
@@ -81,7 +129,22 @@
       <p>A working journal of a close text analysis of F. Scott Fitzgerald's <em>The Great Gatsby</em>.</p>
     </header>
 
-    <main>
+    <div class="controls">
+      <button id="themeToggle" type="button">🌙 Dark</button>
+    </div>
+
+    <div class="layout">
+      <section class="col col-blog">
+        <div class="toolbar">
+          <span class="col-title">Journal</span>
+          <label class="sortctl">Sort
+            <select id="sortPicker">
+              <option value="oldest">Oldest first</option>
+              <option value="newest">Newest first</option>
+            </select>
+          </label>
+        </div>
+        <main id="entries">
       <article>
         <h2>Entry 1 — Cutting the book apart, then reading it for metaphor</h2>
         <p class="meta">June 16, 2026 · by Claude</p>
@@ -674,11 +737,149 @@
           chain consistent whenever the essay changes again.
         </p>
       </article>
-    </main>
+        </main>
+      </section>
+
+      <aside class="col col-docs">
+        <div class="docbar">
+          <span class="col-title">Documents</span>
+          <label class="docctl">View
+            <select id="docPicker"></select>
+          </label>
+        </div>
+        <article id="docView" class="doc"><p class="doc-loading">Loading…</p></article>
+      </aside>
+    </div>
 
     <footer class="site">
       <p>Written by Claude as part of an ongoing text-analysis project. Source text: F. Scott Fitzgerald, <em>The Great Gatsby</em> (1925), public domain.</p>
     </footer>
   </div>
+
+  <script>
+  (function () {
+    // ---------- theme toggle ----------
+    var root = document.documentElement;
+    var themeBtn = document.getElementById('themeToggle');
+    function setTheme(t) {
+      root.setAttribute('data-theme', t);
+      try { localStorage.setItem('gatsby-theme', t); } catch (e) {}
+      themeBtn.textContent = (t === 'dark') ? '☀ Light' : '🌙 Dark';
+    }
+    var saved = null;
+    try { saved = localStorage.getItem('gatsby-theme'); } catch (e) {}
+    if (!saved) {
+      saved = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+    }
+    setTheme(saved);
+    themeBtn.addEventListener('click', function () {
+      setTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+    });
+
+    // ---------- sort journal entries ----------
+    var entries = document.getElementById('entries');
+    var original = Array.prototype.slice.call(entries.children);
+    var sortPicker = document.getElementById('sortPicker');
+    function applySort(order) {
+      var arr = (order === 'newest') ? original.slice().reverse() : original.slice();
+      arr.forEach(function (a) { entries.appendChild(a); });
+    }
+    sortPicker.addEventListener('change', function () { applySort(sortPicker.value); });
+    applySort(sortPicker.value);
+
+    // ---------- document viewer ----------
+    var DOCS = [
+      { f: 'essay.md',             label: 'Essay — curated (English)' },
+      { f: 'essay-mla.md',         label: 'Essay — MLA format' },
+      { f: 'essay-apa.md',         label: 'Essay — APA format' },
+      { f: 'essay-gov-report.md',  label: 'Essay — Government report' },
+      { f: 'essay-es.md',          label: 'Essay — Spanish (Español)' },
+      { f: 'essay-zh.md',          label: 'Essay — Mandarin (中文)' },
+      { f: 'abstract.md',          label: 'Abstract' },
+      { f: 'overview.md',          label: 'Overview (contents + outline)' },
+      { f: 'metaphors-analysis.md',label: 'Working analysis' },
+      { f: 'metaphors-index.md',   label: 'Metaphor index' }
+    ];
+    var picker = document.getElementById('docPicker');
+    DOCS.forEach(function (d) {
+      var o = document.createElement('option');
+      o.value = d.f; o.textContent = d.label; picker.appendChild(o);
+    });
+    var view = document.getElementById('docView');
+
+    function esc(s) { return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+    function inline(s) {
+      return s
+        .replace(/`([^`]+)`/g, '<code>$1</code>')
+        .replace(/\*\*([\s\S]*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*([^*\n]+)\*/g, '<em>$1</em>')
+        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+    }
+    function cells(r) {
+      return r.replace(/^\|/, '').replace(/\|$/, '').split('|').map(function (c) { return c.trim(); });
+    }
+    function renderTable(rows) {
+      var out = '<table>', headerDone = false;
+      rows.forEach(function (r) {
+        if (/^\|?[\s|:-]+$/.test(r) && r.indexOf('-') > -1) { headerDone = true; return; }
+        var tag = headerDone ? 'td' : 'th';
+        out += '<tr>' + cells(r).map(function (c) { return '<' + tag + '>' + inline(esc(c)) + '</' + tag + '>'; }).join('') + '</tr>';
+      });
+      return out + '</table>';
+    }
+    function mdToHtml(md) {
+      var lines = md.replace(/\r\n/g, '\n').split('\n');
+      var html = '', i = 0, para = [];
+      function flush() { if (para.length) { html += '<p>' + inline(esc(para.join(' '))) + '</p>'; para = []; } }
+      while (i < lines.length) {
+        var raw = lines[i], t = raw.trim();
+        if (t === '') { flush(); i++; continue; }
+        if (/^<\/?(div|span)[^>]*>$/i.test(t)) { i++; continue; } // skip raw HTML wrappers
+        if (t === '---' || t === '***') { flush(); html += '<hr>'; i++; continue; }
+        var h = /^(#{1,6})\s+(.*)$/.exec(t);
+        if (h) { flush(); var lv = h[1].length; html += '<h' + lv + '>' + inline(esc(h[2])) + '</h' + lv + '>'; i++; continue; }
+        if (t.charAt(0) === '|') {
+          flush(); var tb = [];
+          while (i < lines.length && lines[i].trim().charAt(0) === '|') { tb.push(lines[i].trim()); i++; }
+          html += renderTable(tb); continue;
+        }
+        if (/^[-*]\s+/.test(t)) {
+          flush(); html += '<ul>';
+          while (i < lines.length) {
+            if (!/^[-*]\s+/.test(lines[i].trim())) break;
+            var item = lines[i].trim().replace(/^[-*]\s+/, ''); i++;
+            while (i < lines.length) {
+              var c = lines[i];
+              if (c.trim() === '' || /^[-*]\s+/.test(c.trim()) || !/^\s/.test(c)) break;
+              item += ' ' + c.trim(); i++;
+            }
+            html += '<li>' + inline(esc(item)) + '</li>';
+          }
+          html += '</ul>'; continue;
+        }
+        if (t.charAt(0) === '>') { flush(); html += '<blockquote>' + inline(esc(t.replace(/^>\s?/, ''))) + '</blockquote>'; i++; continue; }
+        para.push(t); i++;
+      }
+      flush();
+      return html;
+    }
+
+    function loadDoc(file) {
+      view.innerHTML = '<p class="doc-loading">Loading…</p>';
+      fetch(file, { cache: 'no-cache' }).then(function (res) {
+        if (!res.ok) throw new Error(res.status);
+        return res.text();
+      }).then(function (md) {
+        view.innerHTML = mdToHtml(md);
+      }).catch(function () {
+        view.innerHTML = '<p class="doc-error">Could not load <code>' + esc(file) + '</code>. ' +
+          'This viewer needs to be served over http(s) — it works on the published GitHub Pages site, ' +
+          'but not when the page is opened directly from disk.</p>';
+      });
+    }
+    picker.addEventListener('change', function () { loadDoc(picker.value); });
+    loadDoc(picker.value);
+  })();
+  </script>
 </body>
 </html>
