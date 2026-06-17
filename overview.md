@@ -60,6 +60,14 @@ luminous, valuable, and finally hollow.*
   on a fairy's wing," ch. 6; the threadbare "sawdust" of the rehearsed past, ch. 4)
   and priced at fulfillment ("his mind would never romp again like the mind of God,"
   ch. 6).
+- **Further additions:** the magnificence as vulgar and flimsy — Gatsby as
+  "Trimalchio" (ch. 7), the "caravansary" that falls "like a card house" at Daisy's
+  disapproval (ch. 7); the class disguise of "the invisible cloak of his uniform"
+  (ch. 8) and the quest as "the following of a grail," with beauty "wealth imprisons
+  and preserves" (ch. 8); and the deepest turn — when the dream is attained, reality
+  goes unreal ("none of it was any longer real," ch. 5), because "the colossal
+  vitality of his illusion" stored "in his ghostly heart" (ch. 5) outlives the living
+  woman.
 
 ### II. Wealth insulates the careless from consequence
 *Carried by metaphors of force and machinery, the ash-figures of the valley, and
@@ -86,6 +94,11 @@ falls on those with no money to retreat into.*
   self-image — Tom on "the last barrier of civilization" (ch. 7), Daisy's contempt
   for strivers herded "from nothing to nothing" (ch. 6), Wilson handled "like a
   doll" (ch. 7).
+- **Further additions:** the criminal source of the money — Wolfsheim playing "with
+  the faith of fifty million people" "like a burglar blowing a safe" (ch. 4), and
+  uncatchable; and the weightlessness of the rich — "buoyed up as though upon an
+  anchored balloon," "like silver idols," returned to the floor only by Tom's brute
+  force (ch. 1, ch. 7).
 
 ### III. The past cannot be repeated and yet cannot be escaped
 *Carried by metaphors of time and water; contains the book's central
@@ -109,6 +122,12 @@ contradiction.*
   dissolves the present — "the inessential houses began to melt away" (ch. 9) — and
   draws a green thread (light, breast, "long green tickets," ch. 9) through all that
   is wanted and out of reach.
+- **Further additions:** the unrepeatable instant as "the tuning fork that had been
+  struck upon a star" (ch. 6); the city "always ... seen for the first time, in its
+  first wild promise" (ch. 4) as the receding future in miniature; and the present
+  going ghostly once the dream is gone — "a new world, material without being real,
+  where poor ghosts, breathing dreams like air" (ch. 8), the inverse of the
+  green-light collapse.
 
 ### Conclusion: one figure, three claims
 - The final sentence holds all three claims at once: "we beat on" (the dream),
@@ -123,15 +142,13 @@ contradiction.*
 
 ## Structural notes (for ongoing revision)
 
-- **Book order is approximate, not strict.** Each claim is built from thematic
-  sub-arcs that are individually near-chronological, but the section steps back in
-  chapter number between sub-arcs (e.g., Section I runs ch. 1 → 5, then ch. 1 → 7 →
-  8 → 5, then ch. 6 → 8). This is the honest residue of the "web vs. grid" problem.
-  If we want stricter linearity, the fix is to interleave the sub-arcs by chapter —
-  at some cost to each sub-arc's internal momentum.
-- **Claim II remains the heaviest in sources;** Claim III, after the expansion (the
-  Plaza "dead dream," Nick's thirtieth birthday, the green thread), is closer to
-  parity and tightest in payoff (it owns the ending). Worth watching as we grow the
-  essay that we don't over-weight II.
+- **Book order: SETTLED — keep the thematic sub-arcs** (decided 2026-06-16). Each
+  claim stays built from thematic sub-arcs that are individually near-chronological,
+  even though the section steps back in chapter number between sub-arcs. We chose
+  sub-arc momentum over strict chapter-by-chapter linearity; do not re-interleave.
+- **Weighting after the second expansion:** Claim I is now the heaviest in sources
+  (it carries the most metaphor clusters), with II and III closer to parity than
+  before; III remains tightest in payoff (it owns the ending). Roughly balanced —
+  worth a glance if we expand again.
 - **Cross-claim figures to keep flagged:** the green light (I + III), non-olfactory
   money (I + II), the indifferent sea (II + III).
