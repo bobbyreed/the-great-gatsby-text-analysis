@@ -737,6 +737,83 @@
           chain consistent whenever the essay changes again.
         </p>
       </article>
+
+      <article>
+        <h2>Entry 10 — Finishing the page, and a last pass on the translations</h2>
+        <p class="meta">June 17, 2026 · by Claude</p>
+
+        <p>
+          The closing session for this phase of the project. Three things got done: the journal
+          page itself was finished for posterity, the translations got one real correction from
+          review, and the two interpretive word-choices in those translations are now documented
+          where a reader can see them.
+        </p>
+
+        <h3>1. The page you are reading</h3>
+        <p>
+          Until now this was a single column of entries with no controls. It now has three
+          additions, all written in plain vanilla JavaScript with no libraries and nothing
+          fetched from a CDN — the same self-contained principle the page started with. First, a
+          <strong>sort control</strong> that flips the journal between oldest-first and
+          newest-first; the original order is captured once when the page loads, so flipping is
+          non-destructive and the cross-references between entries still resolve. Second, a
+          <strong>light/dark theme toggle</strong>, driven entirely by CSS custom properties, so
+          one button swaps a handful of variables; the choice is saved in
+          <code>localStorage</code> and, on a first visit, defaults to whatever the operating
+          system prefers. Third, and most useful for posterity, a second column: a
+          <strong>document viewer</strong> with a picker listing every document this project
+          produced — the curated essay, the MLA, APA, and government-report editions, the Spanish
+          and Mandarin translations, and the abstract, overview, working analysis, and metaphor
+          index.
+        </p>
+        <p>
+          The viewer works by fetching the raw Markdown file and rendering it in the browser with
+          a small Markdown converter I wrote for the purpose — it handles headings, bold and
+          italics, inline code, links, lists (including the wrapped continuation lines our files
+          use), block quotes, horizontal rules, and the one table in the government report. One
+          honest limitation worth recording: because it uses <code>fetch()</code>, the viewer
+          works on the published GitHub Pages site but not when the HTML file is opened directly
+          from disk, where browsers block local file reads. The page says so plainly if that
+          happens. The practical upshot is that the viewer always shows the <em>current</em>
+          committed version of each draft — it reads the live files rather than an embedded copy,
+          so the drafts on the site stay in step with the repository automatically.
+        </p>
+
+        <h3>2. A translation correction from review</h3>
+        <p>
+          A review pass caught a real cross-version inconsistency. In the English essay the
+          tuning-fork figure ("the tuning fork that had been struck upon a star") is woven into
+          the sentence about the unrepeatable ascent, <em>before</em> the "overwound clock." In
+          both translations it had landed as a separate paragraph <em>after</em> the clock — so
+          it read like a patch appended to the end rather than part of the argument. I folded it
+          back into the ascent sentence in both the Spanish and the Mandarin and deleted the
+          trailing paragraph, so all four versions now run in the same order. Exactly the kind of
+          drift that creeps in when the same change is made by hand in several places.
+        </p>
+
+        <h3>3. Translator's notes for two judgment calls</h3>
+        <p>
+          The review also flagged two places where the translations make a defensible but
+          interpretive choice rather than a literal one, and those now carry explanatory notes.
+          In the Spanish, "count of enchanted objects" is rendered <em>inventario</em> — keeping
+          the novel's financial overtone of things enumerated and owned — and "ballooned slowly
+          to the floor" is read as deflating balloons (<em>globos que se desinflan</em>); the
+          Mandarin makes the same balloon reading (<em>泄了气的气球</em>). Each is marked in the
+          text with a superscript and explained in a new translator's-notes section at the foot
+          of the document. Since Markdown has no footnote our viewer renders, these are written
+          as an end section with superscript markers — a deliberate stand-in that will be
+          promoted to real footnotes when the documents are moved into Google Drive. Each note
+          says as much, so no one mistakes the stopgap for the final form.
+        </p>
+
+        <h3>What's next</h3>
+        <p>
+          This is a natural close for the session. The remaining step, when the time comes, is
+          assembling the Google Drive version: promoting the manual note markers to real
+          footnotes and carrying the formatting across. The analysis itself is verified, at
+          length, and consistent across all six versions.
+        </p>
+      </article>
         </main>
       </section>
 
@@ -812,7 +889,9 @@
       return s
         .replace(/`([^`]+)`/g, '<code>$1</code>')
         .replace(/\*\*([\s\S]*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/__([^_\n]+)__/g, '<strong>$1</strong>')
         .replace(/\*([^*\n]+)\*/g, '<em>$1</em>')
+        .replace(/_([^_\n]+)_/g, '<em>$1</em>')
         .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
     }
     function cells(r) {
