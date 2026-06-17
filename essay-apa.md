@@ -38,6 +38,13 @@ its primary home and flagged in the others. The green light, accordingly, appear
 twice by design — once as the dream that dies on attainment, once as the future that
 forever recedes — because that doubleness is precisely the point.
 
+Fitzgerald flags the interconnection himself on the very first page. What finally
+held Nick's interest, he tells us, was "what foul dust floated in the wake of his
+dreams" (Fitzgerald, 1925, Chapter 1) — a single phrase that already binds the luminous dream of the
+first claim to the grey dust of the second, the beautiful aspiration to the wreckage
+it trails behind it. The web is the author's; the grid is only the reader's
+convenience.
+
 ## I. The American dream is a beautiful fraud
 
 The novel's first claim is carried by its metaphors of aspiration and enchantment:
@@ -110,6 +117,17 @@ that is not warmth but bait, and it implicates Gatsby twice over, for he too is 
 moth, beating across the bay toward a green light. Beauty in this novel is rarely
 just beautiful; it is almost always an instrument, and usually a trap.
 
+That magnificence is also flimsy and faintly vulgar, and Fitzgerald says so in the
+figures he chooses for it. Gatsby is cast as a parvenu host out of antiquity — when
+the parties stop, "his career as Trimalchio was over" (Fitzgerald, 1925, Chapter 7), Trimalchio
+being the gaudy freedman of the *Satyricon* whose feasts display wealth without
+taste. And the whole establishment exists for exactly one pair of eyes: once Daisy
+has seen it and found it wanting, "the whole caravansary had fallen in like a card
+house at the disapproval in her eyes" (Fitzgerald, 1925, Chapter 7). A card house is the precise
+figure for a splendor with no structural integrity of its own — it stands only so
+long as the dream it was built to impress keeps believing in it, and collapses at a
+glance.
+
 The fraud's most ambitious form is Gatsby's invention of himself. "Jay Gatsby...
 sprang from his Platonic conception of himself," Fitzgerald writes; "he was a son of
 God... and he must be about His Father's Business, the service of a vast, vulgar and
@@ -140,6 +158,30 @@ knows that "his mind would never romp again like the mind of God" (Fitzgerald, 1
 to incarnate a limitless vision in one mortal woman is to forfeit the limitlessness.
 The godlike imagination is the cost of possessing the thing it imagined. Beauty,
 fraud, and self-destruction are, for Gatsby, a single act.
+
+The fraud also required a disguise, and the novel names it. As a young officer
+Gatsby courted Daisy beneath "the invisible cloak of his uniform," which "might slip
+from his shoulders" at any moment to expose a penniless young man without a past
+(Fitzgerald, 1925, Chapter 8). The uniform let him pass; the dream began as an act of class
+impersonation. What turned the impersonation into a vocation was Daisy herself:
+having taken her, Gatsby found that "he had committed himself to the following of a
+grail" (Fitzgerald, 1925, Chapter 8). The grail is the exact figure, because a grail is defined by
+the seeking and not the having — which is why winning Daisy can only disappoint, and
+why part of what he loves is "the youth and mystery that wealth imprisons and
+preserves" (Fitzgerald, 1925, Chapter 8), a beauty kept fresh, like a specimen, by the very money
+that walls it off from him.
+
+And here is the fraud's deepest turn. When the dream is at last attained, it is
+*reality* that goes unreal. Watching Gatsby move among his possessions after the
+reunion, Nick notes that "in her actual and astounding presence none of it was any
+longer real" (Fitzgerald, 1925, Chapter 5): the house, the imported shirts, the five years of
+accumulation all lose their substance the instant Daisy is there to confer it,
+because they were never anything but props for an idea. The idea, by contrast, has a
+life of its own — "the colossal vitality of his illusion" (Fitzgerald, 1925, Chapter 5) — and that
+vitality is what dooms the living woman, who cannot compete with what Gatsby has, for
+five years, stored up "in his ghostly heart" (Fitzgerald, 1925, Chapter 5). The beautiful fraud is
+not that Daisy proves unworthy; it is that no real thing can ever be as real as the
+dream of it.
 
 ## II. Wealth insulates the careless from consequence
 
@@ -213,6 +255,27 @@ story about it, and the habit of handling other people as things: Tom moves Nick
 a doll" (Fitzgerald, 1925, Chapter 7). The strong handle the weak as objects, and never doubt
 they are in the right.
 
+The insulation reaches all the way down to where the money comes from. The fortune
+that buys this immunity rests on crime that the figures render vast and impersonal.
+Meyer Wolfsheim fixed the 1919 World Series, and Nick can barely take in the scale:
+it had never occurred to him that "one man could start to play with the faith of
+fifty million people—with the single-mindedness of a burglar blowing a safe" (Fitzgerald, 1925, Chapter 4). The metaphor converts a nation's trust into a safe to be cracked, and the
+safe-cracker walks free — "they can't get him, old sport. He's a smart man." Money
+does not merely shield the careless after the damage is done; it shields the very
+engine of the damage, so that the man who robbed fifty million people is simply a
+fixture of Broadway. The protection runs from the gambling table to the ash-heap,
+covering everyone except those who have nothing to retreat into.
+
+There is a quieter figure for the same immunity: weightlessness. When Nick first
+enters the Buchanan house, Daisy and Jordan are "buoyed up as though upon an anchored
+balloon" (Fitzgerald, 1925, Chapter 1), their white dresses rippling as if the two women had just
+floated down from a flight around the room; at the Plaza they lie "like silver idols"
+(Fitzgerald, 1925, Chapter 7), weighing down nothing but their own dresses against the fans. The
+rich, in these images, do not quite touch the ground. And what returns them to it is
+never consequence but only brute force: Tom shuts the windows, the caught wind dies,
+and "the two young women ballooned slowly to the floor" (Fitzgerald, 1925, Chapter 1). The only
+gravity in their world is one another; nothing else they do has any weight.
+
 Fitzgerald names that insulation outright in the final chapter, in a figure that
 turns "careless" into the book's harshest indictment: "They were careless people,
 Tom and Daisy—they smashed up things and creatures and then retreated back into their
@@ -238,7 +301,9 @@ The metaphors that surround the original loss show why he cannot. The night he f
 kissed Daisy, "the blocks of the sidewalk really formed a ladder and mounted to a
 secret place above the trees" where he could "suck on the pap of life, gulp down the
 incomparable milk of wonder" (Fitzgerald, 1925, Chapter 6) — a moment figured as a single, unrepeatable
-ascent. After the reunion that was supposed to recover it, Gatsby is "running down
+ascent, its very pitch caught in a companion figure from the same passage: "the
+tuning fork that had been struck upon a star" (Fitzgerald, 1925, Chapter 6), a note sounded once
+and, by the nature of the thing, never to be sounded again. After the reunion that was supposed to recover it, Gatsby is "running down
 like an overwound clock" (Fitzgerald, 1925, Chapter 5), the mechanism of his anticipation spent;
 the past cannot be wound back up.
 
@@ -268,6 +333,26 @@ of air, to save a fragment of the spot that she had made lovely for him" (Fitzge
 loss; it is morally indifferent to it. Nick wants "to leave things in order and not
 just trust that obliging and indifferent sea to sweep my refuse away" (Fitzgerald, 1925, Chapter 9): the sea will take whatever you give it but remembers nothing, which is exactly
 what the careless rely on.
+
+The cost of a past that cannot be recovered is a present that can no longer be fully
+inhabited. On the last morning of his life, with no word from Daisy, Gatsby is
+imagined moving through "a new world, material without being real, where poor ghosts,
+breathing dreams like air, drifted fortuitously about" (Fitzgerald, 1925, Chapter 8). It is the
+exact inverse of the green-light collapse: there, the dream went dead the moment it
+was attained; here, the world itself goes ghostly the moment the dream that organized
+it is withdrawn. Either way the lesson holds — the dream and reality cannot both be
+real at once — and it is why the past can be neither repeated nor escaped. To lose the
+dream is not to be set back down on solid ground; it is to be left among "poor
+ghosts," breathing an air made of what is already gone.
+
+Even the novel's emblem of pure forward promise is built to renew and never to
+arrive. Crossing into Manhattan, Nick observes that "the city seen from the
+Queensboro Bridge is always the city seen for the first time, in its first wild
+promise of all the mystery and the beauty in the world" (Fitzgerald, 1925, Chapter 4). "Always ...
+for the first time" is the engine of the receding future in miniature: the promise
+stays wild and total precisely because it is perpetually first and never kept. What
+feels like advance is the same threshold crossed again and again — the green light
+re-lit at the end of every dock.
 
 The claim culminates in the novel's last page, where the metaphors fuse. Fitzgerald
 first dissolves the present to reach the past beneath it: as Nick lies on the beach,
@@ -311,4 +396,4 @@ the meaning.
 
 Fitzgerald, F. S. (1925). *The great Gatsby*. Project Gutenberg Australia. https://gutenberg.net.au/ebooks02/0200041h.html (Original work published 1925)
 
-*Note.* Quotations are drawn from a public-domain text of the novel. Because that text is unpaginated, in-text citations identify the chapter; line-level locators are retained in the project repository.
+*Note.* Quotations are drawn from the public-domain Project Gutenberg Australia text. Because that text is unpaginated, in-text citations identify the chapter; line-level locators are retained in the project repository.

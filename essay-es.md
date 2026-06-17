@@ -32,6 +32,8 @@ principal y se la señala en las demás. La luz verde, por consiguiente, aparece
 veces a propósito —una como el sueño que muere al alcanzarse, otra como el futuro que
 retrocede sin cesar—, porque esa duplicidad es justamente lo esencial.
 
+El propio Fitzgerald señala esta interconexión en la primerísima página. Lo que al final retuvo el interés de Nick, nos dice, fue "what foul dust floated in the wake of his dreams" ("qué polvo inmundo flotaba en la estela de sus sueños", cap. 1, l. 9): una sola frase que ya enlaza el sueño luminoso de la primera afirmación con el polvo gris de la segunda, la hermosa aspiración con los escombros que arrastra tras de sí. La red es del autor; la cuadrícula es solo una comodidad del lector.
+
 ---
 
 ## I. El sueño americano es un fraude hermoso
@@ -122,6 +124,8 @@ brillo que no es calor sino cebo, y compromete a Gatsby por partida doble, pues 
 esta novela, rara vez es solo bella; casi siempre es un instrumento, y por lo común una
 trampa.
 
+Esa magnificencia es además endeble y un tanto vulgar, y Fitzgerald lo dice en las figuras que elige para ella. A Gatsby se le presenta como un anfitrión advenedizo salido de la antigüedad: cuando las fiestas cesan, "his career as Trimalchio was over" ("su carrera como Trimalción había terminado", cap. 7, l. 3), siendo Trimalción el liberto fastuoso del *Satiricón* cuyos banquetes ostentan riqueza sin gusto. Y todo el establecimiento existe para un solo par de ojos: una vez que Daisy lo ha visto y lo ha hallado deficiente, "the whole caravansary had fallen in like a card house at the disapproval in her eyes" ("todo el caravasar se había desplomado como un castillo de naipes ante la desaprobación en sus ojos", cap. 7, l. 31). Un castillo de naipes es la figura precisa para un esplendor sin integridad estructural propia: se sostiene solo mientras el sueño al que fue erigido para impresionar siga creyendo en él, y se derrumba con una mirada.
+
 La forma más ambiciosa del fraude es la invención que Gatsby hace de sí mismo. "Jay
 Gatsby... sprang from his Platonic conception of himself" ("Jay Gatsby... brotó de su
 concepción platónica de sí mismo"), escribe Fitzgerald; "he was a son of God... and he
@@ -158,6 +162,10 @@ romp again like the mind of God" ("su mente nunca volvería a retozar como la me
 Dios", cap. 6, l. 269): encarnar una visión ilimitada en una sola mujer mortal es
 renunciar a lo ilimitado. La imaginación divina es el costo de poseer aquello que
 imaginó. Belleza, fraude y autodestrucción son, para Gatsby, un solo acto.
+
+El fraude también exigía un disfraz, y la novela lo nombra. De joven oficial, Gatsby cortejó a Daisy bajo "the invisible cloak of his uniform" ("el manto invisible de su uniforme"), que en cualquier momento "might slip from his shoulders" ("podía resbalársele de los hombros", cap. 8, l. 23) para dejar al descubierto a un joven sin un centavo y sin pasado. El uniforme le permitió pasar; el sueño empezó como un acto de suplantación de clase. Lo que convirtió la suplantación en vocación fue la propia Daisy: una vez que la tomó, Gatsby descubrió que "he had committed himself to the following of a grail" ("se había comprometido a la búsqueda de un grial", cap. 8, l. 27). El grial es la figura exacta, porque un grial se define por la búsqueda y no por la posesión: por eso ganar a Daisy solo puede decepcionar, y por eso parte de lo que él ama es "the youth and mystery that wealth imprisons and preserves" ("la juventud y el misterio que la riqueza encarcela y conserva", cap. 8, l. 29), una belleza mantenida fresca, como un espécimen, por el mismísimo dinero que se la veda.
+
+Y he aquí el giro más profundo del fraude. Cuando el sueño por fin se alcanza, es la *realidad* la que se vuelve irreal. Al observar a Gatsby moverse entre sus posesiones tras el reencuentro, Nick advierte que "in her actual and astounding presence none of it was any longer real" ("en la presencia real y asombrosa de ella, nada de aquello era ya real", cap. 5, l. 223): la casa, las camisas importadas, los cinco años de acumulación pierden su sustancia en el instante en que Daisy está allí para conferírsela, porque nunca fueron sino utilería de una idea. La idea, en cambio, tiene vida propia —"the colossal vitality of his illusion" ("la colosal vitalidad de su ilusión", cap. 5, l. 308)—, y esa vitalidad es la que condena a la mujer viva, que no puede competir con lo que Gatsby, durante cinco años, ha atesorado "in his ghostly heart" ("en su corazón fantasmal", cap. 5, l. 308). El fraude hermoso no consiste en que Daisy resulte indigna; consiste en que ninguna cosa real puede ser nunca tan real como el sueño de ella.
 
 ---
 
@@ -246,6 +254,10 @@ quebrantado Wilson, "picking up Wilson like a doll" ("levantando a Wilson como a
 muñeco", cap. 7, l. 729). Los fuertes manejan a los débiles como objetos, y jamás dudan
 de tener la razón.
 
+El aislamiento llega hasta el origen mismo del dinero. La fortuna que compra esta inmunidad se asienta sobre un crimen que las figuras vuelven vasto e impersonal. Meyer Wolfsheim amañó la Serie Mundial de 1919, y Nick apenas alcanza a asimilar la escala: nunca se le había ocurrido que "one man could start to play with the faith of fifty million people—with the single-mindedness of a burglar blowing a safe" ("un solo hombre pudiera ponerse a jugar con la fe de cincuenta millones de personas, con la determinación de un ladrón que revienta una caja fuerte", cap. 4, l. 231). La metáfora convierte la confianza de una nación en una caja fuerte que hay que reventar, y el reventador queda libre: "they can't get him, old sport. He's a smart man" ("no pueden atraparlo, viejo amigo. Es un hombre listo"). El dinero no solo protege a los descuidados después del daño; protege al motor mismo del daño, de modo que el hombre que robó a cincuenta millones de personas no es más que una figura habitual de Broadway. La protección va de la mesa de juego al muladar, y cubre a todos salvo a quienes no tienen nada en lo cual refugiarse.
+
+Hay una figura más callada para esa misma inmunidad: la ingravidez. Cuando Nick entra por primera vez en la casa de los Buchanan, Daisy y Jordan están "buoyed up as though upon an anchored balloon" ("sostenidas en el aire como sobre un globo anclado", cap. 1, l. 55), con sus vestidos blancos ondeando como si las dos mujeres acabaran de descender flotando de un vuelo por la habitación; y en el Plaza yacen "like silver idols" ("como ídolos de plata", cap. 7, l. 59), sin más peso que el de sus propios vestidos contra los ventiladores. Los ricos, en estas imágenes, no llegan del todo a tocar el suelo. Y lo que los devuelve a él nunca es la consecuencia, sino solo la fuerza bruta: Tom cierra las ventanas, el viento atrapado se apaga, y "the two young women ballooned slowly to the floor" ("las dos jóvenes descendieron lentamente al suelo como globos que se desinflan", cap. 1, l. 55). La única gravedad en su mundo son ellos mismos, los unos para los otros; nada más de lo que hacen tiene peso alguno.
+
 Fitzgerald nombra ese aislamiento sin rodeos en el último capítulo, en una figura que
 convierte "careless" (descuidados) en la acusación más dura del libro: "They were
 careless people, Tom and Daisy—they smashed up things and creatures and then retreated
@@ -283,6 +295,8 @@ como un ascenso único e irrepetible. Tras el reencuentro que debía recobrarlo,
 "running down like an overwound clock" ("agota como un reloj al que se le dio demasiada
 cuerda", cap. 5, l. 229), gastado el mecanismo de su expectación; al pasado no se le puede
 dar cuerda de nuevo.
+
+El tono mismo de ese instante queda captado en una figura compañera del mismo pasaje: "the tuning fork that had been struck upon a star" ("el diapasón que había sido golpeado contra una estrella", cap. 6, l. 269), una nota tañida una sola vez y que, por la naturaleza de la cosa, nunca volverá a tañerse.
 
 La contradicción se agudiza en el Plaza, donde el sueño es declarado muerto y, aun así, se
 niega a dejar de moverse. Mientras Daisy se aparta de él, "only the dead dream fought on
@@ -323,6 +337,10 @@ that obliging and indifferent sea to sweep my refuse away" ("dejar las cosas en 
 simplemente confiar en que ese mar servicial e indiferente se lleve mis desechos", cap. 9,
 l. 278): el mar se llevará lo que sea que se le dé, pero no recuerda nada, que es
 exactamente aquello con lo que cuentan los descuidados.
+
+El costo de un pasado que no puede recobrarse es un presente que ya no puede habitarse del todo. En la última mañana de su vida, sin noticia alguna de Daisy, se imagina a Gatsby moviéndose por "a new world, material without being real, where poor ghosts, breathing dreams like air, drifted fortuitously about" ("un mundo nuevo, material sin ser real, donde pobres fantasmas, respirando sueños como aire, vagaban fortuitamente", cap. 8, l. 221). Es el reverso exacto del derrumbe de la luz verde: allí, el sueño moría en el instante en que se alcanzaba; aquí, el mundo mismo se vuelve fantasmal en el instante en que se le retira el sueño que lo ordenaba. De cualquier modo se cumple la lección —el sueño y la realidad no pueden ser reales a la vez— y por eso el pasado no puede ni repetirse ni dejarse atrás. Perder el sueño no es ser devuelto a tierra firme; es quedar entre "poor ghosts" ("pobres fantasmas"), respirando un aire hecho de lo que ya se ha ido.
+
+Incluso el emblema de la pura promesa hacia adelante en la novela está hecho para renovarse y nunca llegar. Al cruzar hacia Manhattan, Nick observa que "the city seen from the Queensboro Bridge is always the city seen for the first time, in its first wild promise of all the mystery and the beauty in the world" ("la ciudad vista desde el puente de Queensboro es siempre la ciudad vista por primera vez, en su primera promesa desbocada de todo el misterio y toda la belleza del mundo", cap. 4, l. 111). "Always... for the first time" ("siempre... por primera vez") es el motor del futuro que retrocede en miniatura: la promesa se mantiene desbocada y total precisamente porque es perpetuamente primera y nunca cumplida. Lo que parece avance es el mismo umbral cruzado una y otra vez: la luz verde reencendida al final de cada muelle.
 
 La afirmación culmina en la última página de la novela, donde las metáforas se funden.
 Fitzgerald disuelve primero el presente para alcanzar el pasado que yace debajo: mientras
