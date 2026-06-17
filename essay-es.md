@@ -70,7 +70,7 @@ Daisy y el símbolo se desploma bajo el peso del cumplimiento: "the colossal sig
 of that light had now vanished forever... Now it was again a green light on a dock. His
 count of enchanted objects had diminished by one" ("el colosal significado de aquella
 luz se había desvanecido para siempre... De nuevo era una luz verde en un muelle. Su
-inventario de objetos encantados había disminuido en uno", cap. 5, l. 243). Esta es la
+inventario¹ de objetos encantados había disminuido en uno", cap. 5, l. 243). Esta es la
 prueba central del ensayo. La luz tenía significado solo mientras era inalcanzable; la
 posesión la reduce de nuevo a mero hecho. El sueño, muestra Fitzgerald, *exige
 distancia* —es estructuralmente una relación con lo que está fuera de alcance—, y ese
@@ -256,7 +256,7 @@ de tener la razón.
 
 El aislamiento llega hasta el origen mismo del dinero. La fortuna que compra esta inmunidad se asienta sobre un crimen que las figuras vuelven vasto e impersonal. Meyer Wolfsheim amañó la Serie Mundial de 1919, y Nick apenas alcanza a asimilar la escala: nunca se le había ocurrido que "one man could start to play with the faith of fifty million people—with the single-mindedness of a burglar blowing a safe" ("un solo hombre pudiera ponerse a jugar con la fe de cincuenta millones de personas, con la determinación de un ladrón que revienta una caja fuerte", cap. 4, l. 231). La metáfora convierte la confianza de una nación en una caja fuerte que hay que reventar, y el reventador queda libre: "they can't get him, old sport. He's a smart man" ("no pueden atraparlo, viejo amigo. Es un hombre listo"). El dinero no solo protege a los descuidados después del daño; protege al motor mismo del daño, de modo que el hombre que robó a cincuenta millones de personas no es más que una figura habitual de Broadway. La protección va de la mesa de juego al muladar, y cubre a todos salvo a quienes no tienen nada en lo cual refugiarse.
 
-Hay una figura más callada para esa misma inmunidad: la ingravidez. Cuando Nick entra por primera vez en la casa de los Buchanan, Daisy y Jordan están "buoyed up as though upon an anchored balloon" ("sostenidas en el aire como sobre un globo anclado", cap. 1, l. 55), con sus vestidos blancos ondeando como si las dos mujeres acabaran de descender flotando de un vuelo por la habitación; y en el Plaza yacen "like silver idols" ("como ídolos de plata", cap. 7, l. 59), sin más peso que el de sus propios vestidos contra los ventiladores. Los ricos, en estas imágenes, no llegan del todo a tocar el suelo. Y lo que los devuelve a él nunca es la consecuencia, sino solo la fuerza bruta: Tom cierra las ventanas, el viento atrapado se apaga, y "the two young women ballooned slowly to the floor" ("las dos jóvenes descendieron lentamente al suelo como globos que se desinflan", cap. 1, l. 55). La única gravedad en su mundo son ellos mismos, los unos para los otros; nada más de lo que hacen tiene peso alguno.
+Hay una figura más callada para esa misma inmunidad: la ingravidez. Cuando Nick entra por primera vez en la casa de los Buchanan, Daisy y Jordan están "buoyed up as though upon an anchored balloon" ("sostenidas en el aire como sobre un globo anclado", cap. 1, l. 55), con sus vestidos blancos ondeando como si las dos mujeres acabaran de descender flotando de un vuelo por la habitación; y en el Plaza yacen "like silver idols" ("como ídolos de plata", cap. 7, l. 59), sin más peso que el de sus propios vestidos contra los ventiladores. Los ricos, en estas imágenes, no llegan del todo a tocar el suelo. Y lo que los devuelve a él nunca es la consecuencia, sino solo la fuerza bruta: Tom cierra las ventanas, el viento atrapado se apaga, y "the two young women ballooned slowly to the floor" ("las dos jóvenes descendieron lentamente al suelo como globos que se desinflan²", cap. 1, l. 55). La única gravedad en su mundo son ellos mismos, los unos para los otros; nada más de lo que hacen tiene peso alguno.
 
 Fitzgerald nombra ese aislamiento sin rodeos en el último capítulo, en una figura que
 convierte "careless" (descuidados) en la acusación más dura del libro: "They were
@@ -398,3 +398,24 @@ frases citadas se conservan en su inglés original, pues el análisis depende de
 precisa de Fitzgerald, con una traducción entre paréntesis. La fuente es el texto de
 dominio público de *The Great Gatsby* (1925) en la edición de Project Gutenberg Australia
 (gutenberg.net.au/ebooks02/0200041h.html).
+
+---
+
+### Notas del traductor
+
+*(En Markdown estas notas aparecen como una sección al final, con llamadas en
+superíndice; se convertirán en notas al pie propiamente dichas al trasladar el
+documento a Google Drive.)*
+
+¹ *inventario* traduce "count" en "His count of enchanted objects had diminished by
+one". Se prefirió "inventario" —en lugar de un literal "cuenta" o "recuento"— para
+conservar el matiz de posesión y contabilidad que la metáfora financiera de la novela
+vuelve significativo: los objetos encantados como bienes que se enumeran y se poseen.
+Es una elección interpretativa, no literal.
+
+² *globos que se desinflan* traduce "ballooned slowly to the floor". El verbo inglés
+"to balloon" es ambiguo: puede sugerir hincharse o, como se lo lee aquí, descender como
+algo hinchado que se deshincha. Esta versión opta por los globos que se desinflan, en
+consonancia con la imagen previa de las mujeres "sostenidas en el aire como sobre un
+globo anclado" que regresan al suelo. Un revisor podría preferir una opción más neutral,
+como "descendieron al suelo como globos".
