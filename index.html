@@ -25,13 +25,13 @@
     }
     * { box-sizing: border-box; }
     body {
-      font: 17px/1.65 Georgia, "Times New Roman", serif;
+      font: 20px/1.7 Georgia, "Times New Roman", serif;
       color: var(--ink);
       background: var(--bg);
       margin: 0;
-      padding: 2.5rem 1.25rem 4rem;
+      padding: 2.25rem 2rem 4rem;
     }
-    .wrap { max-width: 80rem; margin: 0 auto; }
+    .wrap { max-width: 96rem; margin: 0 auto; }
     body { transition: background-color .2s ease, color .2s ease; }
 
     /* top controls */
@@ -48,7 +48,7 @@
 
     /* two-column layout */
     .layout { display: grid; grid-template-columns: 1fr; gap: 3rem; }
-    @media (min-width: 64rem) { .layout { grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 3.5rem; align-items: start; } }
+    @media (min-width: 64rem) { .layout { grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 6rem; align-items: start; } }
     .col-title { font-size: .8rem; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); margin: 0; }
     .toolbar, .docbar {
       display: flex; align-items: center; justify-content: space-between; gap: 1rem;
@@ -57,7 +57,7 @@
     .col-docs .docbar { position: sticky; top: 0; z-index: 5; background: var(--bg); padding-top: 1rem; }
 
     /* rendered document view */
-    #docView { margin: 0; font-size: .95rem; }
+    #docView { margin: 0; font-size: 1.05rem; }
     #docView h1 { font-size: 1.3rem; margin: 0 0 .6rem; }
     #docView h2 { font-size: 1.08rem; color: var(--accent); margin: 1.6rem 0 .5rem; }
     #docView h3 { font-size: 1rem; margin: 1.2rem 0 .4rem; }
